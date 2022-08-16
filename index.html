@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Books Library</title>
+</head>
+
+<body>
+    <h1>my books library</h1>
+    <p>Add new book:</p>
+    <div class="newbook">
+        <div>
+            <p>Name</p>
+            <input type="text" id="bookname" required="true">
+        </div>
+        <div>
+            <p>Author</p>
+            <input type="text" id="author" required="true">
+        </div>
+        <div>
+            <p>No. of Pages</p>
+            <input type="text" id="pages" required="true">
+        </div>
+        <div>
+            <button id="addbook">Add+</button>
+        </div>
+    </div>
+    <div class="table-container">
+        <table>
+            <tbody id="table">
+                <tr>
+                    <th>Sr. No</th>
+                    <th>Book Name</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
